@@ -23,7 +23,8 @@ services:
     image: codecash-mydicebot-docker:latest
     container_name: dicebot-dev
     environment:
-      - REPO_URL:"https://github.com/CodeCASH-Things/mydicebot.github.io.git"
+      - APP_REPO_URL:"https://github.com/CodeCASH-Things/mydicebot.github.io.git"
+      - SCRIPT_REPO_URL="https://github.com/CodeCASH-Things/mydicebot-scripts.git"
     volumes:
       - dicebot_data:/app
       - dicebot_script:/script
