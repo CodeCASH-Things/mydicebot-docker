@@ -17,12 +17,13 @@ Basic Usage:
 ```
 git clone https://github.com/CodeCASH-Things/mydicebot-docker.git
 docker build -t codecash-mydicebot mydicebot-docker
-docker run -d -p 57432:57432 \ 
--v $(pwd)/app:/app \
--v $(pwd)/script:/script \
--e APP_REPO_URL "https://github.com/CodeCASH-Things/mydicebot.github.io.git" \
--e SCRIPT_REPO_URL "https://github.com/CodeCASH-Things/mydicebot-scripts.git" \
-codecash-mydicebot
+docker run -d \
+ -p 57432:57432 \ 
+ -v "$(pwd)/app":/app \
+ -v "$(pwd)/script":/script \
+ -e APP_REPO_URL="https://github.com/CodeCASH-Things/mydicebot.github.io.git" \
+ -e SCRIPT_REPO_URL="https://github.com/CodeCASH-Things/mydicebot-scripts.git" \
+ codecash-mydicebot
 
 ```
 
