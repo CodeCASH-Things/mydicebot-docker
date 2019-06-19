@@ -21,8 +21,8 @@ docker run -d \
 -p 57432:57432 \ 
 -v $(pwd)/app:/app \
 -v $(pwd)/script:/script \
--e APP_REPO_URL="https://github.com/CodeCASH-Things/mydicebot.github.io.git" \
--e SCRIPT_REPO_URL="https://github.com/CodeCASH-Things/mydicebot-scripts.git" \
+-e APP_REPO_URL "https://github.com/CodeCASH-Things/mydicebot.github.io.git" \
+-e SCRIPT_REPO_URL "https://github.com/CodeCASH-Things/mydicebot-scripts.git" \
 codecash-mydicebot
 
 ```
