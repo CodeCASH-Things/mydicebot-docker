@@ -4,7 +4,8 @@ MAINTAINER CodeCASH
 
 
 
-ENV REPO_URL="https://github.com/CodeCASH-Things/mydicebot.github.io.git"
+ENV APP_REPO_URL="https://github.com/CodeCASH-Things/mydicebot.github.io.git"
+ENV SCRIPT_REPO_URL="https://github.com/CodeCASH-Things/mydicebot-scripts.git"
 ENV APP_PATH="/app"
 ENV SCRIPT_PATH="/script"
 
