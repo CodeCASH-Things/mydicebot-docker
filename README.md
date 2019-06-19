@@ -46,15 +46,13 @@ services:
       - dicebot_data:/app
       - dicebot_script:/script
     networks:
-        - default
+        - bot_network
     ports:
       - 32787:57432
       
 
 networks:
-  default:
-    external:
-      name: bot_dev_network
+   - bot_network
       
       
       
