@@ -1,7 +1,15 @@
 # mydicebot-docker
 MyDiceBot Docker Files
 
-*** Currently this is using my repository for mydicebot, my repo contains enhancements and bug fixes. Presently the official mydicebot repo does not work with Docker due to absolute URLs being used. ***
+*** 
+Currently this is using my repository for mydicebot, my repo contains enhancements and bug fixes. 
+Presently the official mydicebot repo does not work with Docker due to absolute URLs being used. 
+My scripts are also being used in this example.
+To use the offical builds just change the respective APP_REPO_URL to 
+
+https://github.com/mydicebot/mydicebot.github.io.git
+
+***
 
 Enviromental Varaibles:
 
