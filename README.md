@@ -7,7 +7,7 @@ Basic Usage:
 
 ```
 git clone https://github.com/CodeCASH-Things/mydicebot-docker.git
-docker build -t docker build -t codecash-mydicebot codecash-mydicebot
+docker build -t docker build -t codecash-mydicebot mydicebot-docker
 docker run -d -p 57432:57432 $(pwd)/app:/app $(pwd)/script:/script codecash-mydicebot
 
 ```
