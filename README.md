@@ -4,8 +4,13 @@ MyDiceBot Docker Files
 
 Basic Usage:
 
-git clone 
 
+```
+git clone https://github.com/CodeCASH-Things/mydicebot-docker.git
+docker build -t codecash-mydicebot .
+docker run -it codecash-mydicebot
+
+```
 
 
 Docker Compose Usage:
