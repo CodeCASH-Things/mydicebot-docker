@@ -2,9 +2,11 @@
 
 echo "Checking REPO URL: $REPO_URL"
 echo "Verifying Path: $APP_PATH"
-if [ ! -z "$REPO_URL" ]; then
+echo "Verifying Script Path: $SCRIPT_PATH"
+if [ ! -z "$APP_REPO_URL" ]; then
 	if [ ! -d "$APP_PATH/src" ]; then
-		git clone "$REPO_URL" "$APP_PATH"
+		git clone "$APP_REPO_URL" "$APP_PATH"
+		git clone "$SCRIPT_REPO_URL" "$SCRIPT_PATH"
 		cd "$APP_PATH/src"
 		npm install
 	fi
