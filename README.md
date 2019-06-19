@@ -1,7 +1,7 @@
 # mydicebot-docker
 MyDiceBot Docker Files
 
-
+*** Currently this is using my repository for mydicebot, my repo contains enhancements and bug fixes. Presently the official mydicebot repo does not work with Docker due to absolute URLs being used. ***
 
 Enviromental Varaibles:
 
