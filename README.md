@@ -2,6 +2,11 @@
 MyDiceBot Docker Files
 
 
+Basic Usage:
+
+git clone 
+
+
 
 Docker Compose Usage:
 
