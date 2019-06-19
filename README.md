@@ -2,6 +2,15 @@
 MyDiceBot Docker Files
 
 
+
+Enviromental Varaibles:
+
+| Variable Name | Value
+| ------------- |:-------------
+|  APP_REPO_URL    | https://github.com/CodeCASH-Things/mydicebot.github.io.git
+|  SCRIPT_REPO_URL      | https://github.com/CodeCASH-Things/mydicebot-scripts.git 
+
+
 Basic Usage:
 
 
