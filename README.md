@@ -30,7 +30,8 @@ docker build -t codecash-mydicebot mydicebot-docker
 docker run -d \
  -p 57432:57432 \
  -v $(pwd)/app:/app \
- -v $(pwd)/script:/script \
+ -v $(pwd)/script:/usr/local/bin/script \
+ -v $(pwd)/sound:/usr/local/bin/sound \
  -e APP_REPO_URL=https://github.com/CodeCASH-Things/mydicebot.github.io.git \
  -e SCRIPT_REPO_URL=https://github.com/CodeCASH-Things/mydicebot-scripts.git \
  codecash-mydicebot
